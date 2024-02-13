@@ -10,7 +10,7 @@
             <p th:text="${person.getId()}">VALUE</p>
         </h2>
         <hr>
-        <form style="margin-bottom: 15px" th:method="GET" th:action="@{/people/__${person.getId()}__/edit}">
+        <form style="margin-bottom: 14px" th:method="GET" th:action="@{/people/__${person.getId()}__/edit}">
             <input type="submit" value="edit!">
         </form>
         <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
