@@ -1,0 +1,8 @@
+ru\klmn\library\controller\BooksController.class
+ru\klmn\library\models\Person.class
+ru\klmn\library\config\AppInit.class
+ru\klmn\library\controller\PeopleController.class
+ru\klmn\library\dao\PersonDAO.class
+ru\klmn\library\config\WebConfig.class
+ru\klmn\library\models\Book.class
+ru\klmn\library\dao\BookDAO.class
